@@ -166,6 +166,11 @@
 	status = "okay";
 };
 
+&uart4 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&uart4m2_xfer>;
+	status = "okay";
+};
 
 &i2c0 {
 	status = "okay";
